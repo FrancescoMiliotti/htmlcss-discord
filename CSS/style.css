@@ -34,38 +34,48 @@ body {
 
 header {
     min-height: 100px;
-    background-color: lightblue;
+    background-color: rgb(49, 96, 224);
     display: flex;
 }
 
 .flex-container {
     display: flex;
-    min-width: 600px;
+    min-width: 1000px;
     align-items: center;
+    justify-content: space-between;
 
 
 }
 
 .logo {
-    background-color: lightcoral;
+    display: flex;
     min-height: 40%;
     width: 20%;
 
 }
 
 .link {
-    background-color: lightcoral;
+    display: flex;
     min-height: 40%;
-    width: 60%;
-    text-align: center;
+    width: 100%;
+    align-items: center;
 
 }
 
 .login {
-    background-color: lightcoral;
+    display: flex;
     min-height: 40%;
-    width: 20%;
-    text-align: right;
+    width: 10%;
+    align-items: center;
+
+   
+
+}
+
+.wh-button{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
 
 }
 
@@ -87,7 +97,7 @@ header {
     min-height: 300px;
     display: flex;
     align-items: center;
-    max-width: 600px;
+    max-width: 1000px;
 
 
 }
@@ -96,7 +106,7 @@ header {
     min-height: 300px;
     display: flex;
     align-items: center;
-    max-width: 600px;
+    max-width: 1000px;
     flex-direction: row-reverse;
 
 
@@ -133,7 +143,7 @@ header {
     min-height: 500px;
     display: flex;
     align-items: center;
-    max-width: 600px;
+    max-width: 1000px;
 }
 
 .small-column {
@@ -152,21 +162,27 @@ header {
     display: flex;
     margin-top: 10px;
     margin-bottom: 20px;
+    width: 70%;
+    
 
 }
 
 
 .navbar{
-    max-width: 600px;
+    max-width: 1000px;
     display: flex;
     margin-top: 2px;
     height: 20%;
     background-color:rgb(128, 255, 212) ;
-    padding: 10px
-   
+    padding: 10px;
+    
 }
 
 .button{
     background-color: coral;
    
+}
+
+.wh-dashed {
+    border: dashed 1px white;
 }
