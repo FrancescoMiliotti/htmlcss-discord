@@ -184,8 +184,7 @@ h1{
 
 .green-box {
 
-    height: 400px;
-    background-color: rgb(34, 140, 34);
+    min-height: 400px;;
     width: 100%;
 
 
